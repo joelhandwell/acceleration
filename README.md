@@ -1,6 +1,19 @@
 # acceleration
 
-Should generate following comparison:
+Should compare accelerations of 3 formulas:
+
+| proportion         | y = x                   |
+| square             | y = x^2 / 42 - 1        |
+| inverse proportion | y = (-42 / (x - 42)) -1 |
+
+```
+proportion
+[7.000,  7.000], [14.000, 14.000], [21.000, 21.000], [28.000, 28.000], [35.000, 35.000], [42.000, 42.000],
+square
+[7.000,  1.195], [14.000,  4.780], [21.000, 10.756], [28.000, 19.122], [35.000, 29.878], [42.000, 43.024],
+inverseProportion
+[7.000,  0.200], [14.000,  0.500], [21.000,  1.000], [28.000,  2.000], [35.000,  5.000], [42.000,      ∞],
+```
 
 ```
 proportion
