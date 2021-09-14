@@ -2,6 +2,8 @@
 
 Should compare accelerations of 3 formulas:
 
+| name               | formula                 |
+| ------------------ | ----------------------- |
 | proportion         | y = x                   |
 | square             | y = x^2 / 42 - 1        |
 | inverse proportion | y = (-42 / (x - 42)) -1 |
